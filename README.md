@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`jd hello [FILE]`](#jd-hello-file)
 * [`jd help [COMMAND]`](#jd-help-command)
+* [`jd project:new [FILE]`](#jd-projectnew-file)
 
 ## `jd hello [FILE]`
 
@@ -63,4 +64,18 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
+
+## `jd project:new [FILE]`
+
+```
+USAGE
+  $ jd project:new [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.0.0/src/commands/project/new.ts)_
 <!-- commandsstop -->
