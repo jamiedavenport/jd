@@ -12,10 +12,12 @@
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
     "@octokit/rest": "^18.0.9",
+    "cross-spawn": "^7.0.3",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
+    "@types/cross-spawn": "^6.0.2",
     "@types/node": "^10",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
