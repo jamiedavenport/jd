@@ -19,7 +19,7 @@ $ npm install -g jd
 $ jd COMMAND
 running command...
 $ jd (-v|--version|version)
-jd/0.0.0 darwin-x64 node-v14.13.1
+jd/0.1.0 darwin-x64 node-v14.13.1
 $ jd --help [COMMAND]
 USAGE
   $ jd COMMAND
@@ -28,27 +28,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`jd hello [FILE]`](#jd-hello-file)
 * [`jd help [COMMAND]`](#jd-help-command)
-* [`jd project:new [FILE]`](#jd-projectnew-file)
-
-## `jd hello [FILE]`
-
-```
-USAGE
-  $ jd hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ jd hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/jamiedavenport/jd/blob/v0.0.0/src/commands/hello.ts)_
+* [`jd project:new NAME [DESCRIPTION]`](#jd-projectnew-name-description)
 
 ## `jd help [COMMAND]`
 
@@ -65,17 +46,15 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.0/src/commands/help.ts)_
 
-## `jd project:new [FILE]`
+## `jd project:new NAME [DESCRIPTION]`
 
 ```
 USAGE
-  $ jd project:new [FILE]
+  $ jd project:new NAME [DESCRIPTION]
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help  show CLI help
 ```
 
-_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.0.0/src/commands/project/new.ts)_
+_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.1.0/src/commands/project/new.ts)_
 <!-- commandsstop -->

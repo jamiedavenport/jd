@@ -1,7 +1,7 @@
 {
   "name": "jd",
   "description": "Jamie's CLI",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Jamie Davenport",
   "bin": {
     "jd": "./bin/run"
