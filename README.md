@@ -15,11 +15,11 @@ Jamie&#39;s CLI
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g jd
+$ npm install -g @jamiedavenport/jd
 $ jd COMMAND
 running command...
 $ jd (-v|--version|version)
-jd/0.1.0 darwin-x64 node-v14.13.1
+@jamiedavenport/jd/0.1.0 darwin-x64 node-v14.13.1
 $ jd --help [COMMAND]
 USAGE
   $ jd COMMAND
