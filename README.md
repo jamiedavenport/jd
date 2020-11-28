@@ -19,7 +19,7 @@ $ npm install -g @jamiedavenport/jd
 $ jd COMMAND
 running command...
 $ jd (-v|--version|version)
-@jamiedavenport/jd/0.1.0 darwin-x64 node-v14.13.1
+@jamiedavenport/jd/0.2.0 darwin-x64 node-v14.13.1
 $ jd --help [COMMAND]
 USAGE
   $ jd COMMAND
@@ -30,7 +30,6 @@ USAGE
 <!-- commands -->
 * [`jd help [COMMAND]`](#jd-help-command)
 * [`jd project:new NAME [DESCRIPTION]`](#jd-projectnew-name-description)
-* [`jd trello:new [FILE]`](#jd-trellonew-file)
 
 ## `jd help [COMMAND]`
 
@@ -57,19 +56,5 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.1.0/src/commands/project/new.ts)_
-
-## `jd trello:new [FILE]`
-
-```
-USAGE
-  $ jd trello:new [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-```
-
-_See code: [src/commands/trello/new.ts](https://github.com/jamiedavenport/jd/blob/v0.1.0/src/commands/trello/new.ts)_
+_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.2.0/src/commands/project/new.ts)_
 <!-- commandsstop -->
