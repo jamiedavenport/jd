@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`jd help [COMMAND]`](#jd-help-command)
 * [`jd project:new NAME [DESCRIPTION]`](#jd-projectnew-name-description)
+* [`jd trello:new [FILE]`](#jd-trellonew-file)
 
 ## `jd help [COMMAND]`
 
@@ -57,4 +58,18 @@ OPTIONS
 ```
 
 _See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.1.0/src/commands/project/new.ts)_
+
+## `jd trello:new [FILE]`
+
+```
+USAGE
+  $ jd trello:new [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/trello/new.ts](https://github.com/jamiedavenport/jd/blob/v0.1.0/src/commands/trello/new.ts)_
 <!-- commandsstop -->

@@ -13,12 +13,14 @@
     "@oclif/plugin-help": "^3",
     "@octokit/rest": "^18.0.9",
     "cross-spawn": "^7.0.3",
+    "node-fetch": "^2.6.1",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",
     "@types/cross-spawn": "^6.0.2",
     "@types/node": "^10",
+    "@types/node-fetch": "^2.5.7",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
     "eslint-config-oclif-typescript": "^0.1",
