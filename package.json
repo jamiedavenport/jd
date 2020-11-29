@@ -3,9 +3,7 @@
   "description": "Jamie's CLI",
   "version": "0.2.0",
   "author": "Jamie Davenport",
-  "bin": {
-    "jd": "./bin/run"
-  },
+  "bin": "./bin/run",
   "bugs": "https://github.com/jamiedavenport/jd/issues",
   "dependencies": {
     "@oclif/command": "^1",
