@@ -1,7 +1,7 @@
 {
   "name": "@jamiedavenport/jd",
   "description": "Jamie's CLI",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Jamie Davenport",
   "bin": "./bin/run",
   "bugs": "https://github.com/jamiedavenport/jd/issues",

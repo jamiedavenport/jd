@@ -19,7 +19,7 @@ $ npm install -g @jamiedavenport/jd
 $ jd COMMAND
 running command...
 $ jd (-v|--version|version)
-@jamiedavenport/jd/0.2.0 darwin-x64 node-v14.13.1
+@jamiedavenport/jd/0.2.1 darwin-x64 node-v14.15.1
 $ jd --help [COMMAND]
 USAGE
   $ jd COMMAND
@@ -56,5 +56,5 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.2.0/src/commands/project/new.ts)_
+_See code: [src/commands/project/new.ts](https://github.com/jamiedavenport/jd/blob/v0.2.1/src/commands/project/new.ts)_
 <!-- commandsstop -->
