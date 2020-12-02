@@ -1,5 +1,5 @@
-import * as spawn from "cross-spawn";
-import * as path from "path";
+import * as spawn from 'cross-spawn'
+import * as path from 'path'
 
 interface CloneRepoOpts {
   url: string;
@@ -7,16 +7,16 @@ interface CloneRepoOpts {
 }
 
 export class GitClient {
-  async cloneRepo({ url, name }: CloneRepoOpts): Promise<void> {
+  async cloneRepo({url, name}: CloneRepoOpts): Promise<void> {
     const result = spawn.sync(
-      "git",
-      ["clone", url, path.resolve(process.env.HOME as string, name)],
+      'git',
+      ['clone', url, path.resolve(process.env.HOME as string, name)],
       {
-        stdio: "ignore",
+        stdio: 'ignore',
       }
-    );
+    )
     if (result.error) {
-      throw result.error;
+      throw result.error
     }
   }
 }
