@@ -9,6 +9,7 @@ interface GithubRepo {
 interface CreateRepoOpts {
   name: string;
   description?: string;
+  isOpenSource?: boolean;
 }
 
 export class GithubClient {
@@ -20,10 +21,10 @@ export class GithubClient {
     })
   }
 
-  async createRepo({name, description}: CreateRepoOpts): Promise<GithubRepo> {
+  async createRepo({name, description, isOpenSource}: CreateRepoOpts): Promise<GithubRepo> {
     const {data} = await this.octokitClient.repos.createForAuthenticatedUser({
       name,
-      private: true,
+      private: !isOpenSource,
       description,
     })
 
